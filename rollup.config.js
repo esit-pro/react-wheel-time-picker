@@ -10,7 +10,7 @@ export default {
   input: "src/index.tsx",
   output: [
     {
-      file: "dist/bundle.cjs.js",
+      file: "dist/bundle.cjs",
       format: "cjs",
       sourcemap: true,
       exports: "auto",
