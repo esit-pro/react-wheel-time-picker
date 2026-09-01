@@ -29,5 +29,5 @@ export default {
     terser(),
     postcss(),
   ],
-  external: ["react", "react-dom", "react-player", /\.css$/], // Ensure these are not bundled
+  external: ["react", "react-dom", "react-player"],
 };

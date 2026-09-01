@@ -1,17 +1,17 @@
 
 
-button {
+.react-wheel-time-picker button {
   border: none;
   background: transparent;
   cursor: pointer;
 }
 
-input {
+.react-wheel-time-picker-main input {
   border: none;
   background: transparent;
   cursor: pointer;
 }
-input:focus {
+.react-wheel-time-picker-main input:focus {
   outline: none;
 }
 
@@ -23,10 +23,10 @@ input:focus {
 }
 
 .react-wheel-time-picker-transition {
-  animation: fade-in 150ms ease-out;
+  animation: react-wheel-time-picker-fade-in 150ms ease-out;
 }
 
-@keyframes fade-in {
+@keyframes react-wheel-time-picker-fade-in {
   0% {
     transform: translateY(150px);
     opacity: 0;
@@ -238,7 +238,7 @@ input:focus {
   left: 0;
   right: 0;
 }
-.label {
+.react-wheel-time-picker-main .label {
   color: #888;
 }
 
